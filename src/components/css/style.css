@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+.picture-profile {
+    width : 200%;
+    height: auto;
+}
+.card-container {
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    border-top: none;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    
+    font-family: 'Kanit', sans-serif;
+  }
+
+.item-center {
+    padding-top: 10%;
+    text-align: center;
+}
+
+.head {
+    font-size: 2vw;
+    text-align-all: center;
+}
+
+.content {
+    font-size: 1vw;
+}
+
+.interest {
+    padding-left: 12%;
+}
+.skill-icon {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;   
+    padding: 5%;
+}
+
+.repo-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+}
+
+
+.card-container-2 {
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    font-family: 'Kanit', sans-serif;
+  }
+  .Box {
+      padding: 10px;
+      background: cornflowerblue;
+      text-align: center;
+      font-family: 'Kanit', sans-serif;
+      color: lightgray;
+      font-size: 14px;
+      font-size: 1vw;
+  }
+
+  .centered {
+      text-align: center;
+     
+  }
+  .NameCaption {
+      font-size: 2vw;
+  }
+
+ .timeline-text {
+     font-size: 1vw;
+ }
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
