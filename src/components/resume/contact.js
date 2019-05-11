@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {Grid, Cell, List, ListItem, ListItemContent} from "react-mdl";
 import {Avatar} from "antd";
 
+
 class Contact extends Component {
     render() {
         return(

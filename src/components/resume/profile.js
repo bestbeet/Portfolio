@@ -3,13 +3,6 @@ import {Container} from 'reactstrap'
 import ScrollAnimation from 'react-animate-on-scroll';
 import {Avatar,Divider} from "antd";
 
-let iconResponsive = {
-    fontSize: "5vw",
-    display: "flex",
-    justifyContent: "space-around",
-    justifyItems: "center"
-}
-
 class Profile extends  Component {
     render() {
        return (

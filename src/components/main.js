@@ -5,7 +5,7 @@ import Profile from './resume/profile';
 import Skills from './resume/skills';
 import Contact from './resume/contact';
 import Competitions from './resume/competitions';
-import Aboutme from './aboutme';
+
 
 const Main = () => (
     <Switch>
